@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+#logo{
+    position: relative;
+    top: 10px;
+    left: 600px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+h1{
+    position: absolute;
+    font-family: 'Brush Script MT';
+    font-size: 12px;
+    position:absolute;
+    left: 540px;
+    top: 230px;
+    color: rgba(124, 122, 7, 0.788);
+    
+}
+h3{
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    font-family: "Baskerville Old Face";
+    font-size: 60px;
+}
+h4{
+    
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 340px;
+    font-family: "Baskerville Old Face";
+    
+}
+.img1{
+    height: 99vh;
+    background-image: url(70461924.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: 140px;
+}
+#nav{
+    position:relative;
+    top: 130px;
+
+}
+a:hover{
+    background-color:rgba(124, 122, 7, 0.788) ;
+    left: 400px; 
+    border-radius: 10px;
+}
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(124, 122, 7, 0.788);
+    position: relative;
+    left: 460px;
+    
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(124, 122, 7, 0.788);
+    position: relative;
+    left: 320px;
+
+}
+#insr{
+   position:absolute;
+    left: 850px;
+    top: 20%;
+}
+p{
+    color: white;
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
+
+}
+#inp1,#inp2{
+    width: 300px;
+    border-radius: 5px;
+    background-color: transparent ;
+    border: 1px solid transparent;
+    border: 2px solid rgba(124, 122, 7, 0.788);
+
+}
+#inp1:hover,#inp2:hover{
+    
+    background-color:rgba(173, 171, 40, 0.788) ;
+}
+button{
+    background-color:rgba(124, 122, 7, 0.788) ;
+    color: white;
+    border:rgba(124, 122, 7, 0.788) ;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgba(173, 171, 40, 0.788);
+}
+
+
+#sign{
+    position: relative;
+    left: 250px;
+    top: -45px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-family:"Baskerville Old Face" ;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.wel{
+    font-family:"Baskerville Old Face" ;
+    color:rgba(124, 122, 7, 0.788) ;
+    font-size: 30px;
+    position: absolute;
+    left: 530px;
+    top: 160%;
+}
+#img2{
+    position:absolute;
+    top: 290%;
+    left: 5%;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.img3{
+    height: 99vh;
+    background-image: url(pf-715119ea--blog-creative-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: 140px;
+    
+   
+}
+#FB{
+    color: black;
+    position: relative;
+    padding-left: 20px; 
+    padding-top: 40px;
+}
+#int{
+color:black;
+position: absolute;
+padding-top: 40px;
+padding-left: 10px;
+height: 20px;
+}
+#li{
+    color: black;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 50px;
+
+}
+#FB:hover,#int:hover,#li:hover{
+    color:rgba(124, 122, 7, 0.788) ;
+ }
+

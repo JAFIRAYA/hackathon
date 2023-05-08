@@ -1,0 +1,119 @@
+#logo{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+#nav{
+    position:relative;
+    top: -10px;
+}
+a:hover{
+    background-color:rgba(124, 122, 7, 0.788) ;
+    left: 400px; 
+    border-radius: 20px;
+}
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(124, 122, 7, 0.788);
+    position: relative;
+    left: 450px;
+    
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(124, 122, 7, 0.788);
+    position: relative;
+    left: 320px;
+
+}
+.img1{
+    height: 90vh;
+    background-image: url(contact.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: -10px;
+}
+.AA{
+    position: absolute;
+    font-family: "Baskerville Old Face";
+    font-size: 70px;
+    position:absolute;
+    left: 250px;
+    top: 240px;
+    color: rgba(124, 122, 7, 0.788);
+    
+}
+.email{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 250px;
+    top:450px ;
+
+}
+h1{
+    position: absolute;
+    font-family: 'Brush Script MT';
+    font-size: 12px;
+    position:absolute;
+    left: 540px;
+    top: 110%;
+    color: rgba(124, 122, 7, 0.788);
+    
+}
+.loc{
+    color:  rgba(124, 122, 7, 0.788);
+    font-size: 40px;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 570px;
+    top:120% ;
+
+}
+.img2{
+   position: absolute;
+   top: 130%;
+   left: 35px;
+ 
+}
+.thank{
+    color:  rgba(124, 122, 7, 0.788);
+    font-size: 40px;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 470px;
+    top:200% ;
+}
+.Q{
+    position: absolute;
+    top:210% ;
+    left: 10px;
+}
+#FB{
+    color: black;
+    position: absolute;
+    top: 209%;
+    left: 150px;
+}
+#int{
+color:black;
+position: absolute;
+top: 209%;
+left: 190px;
+height: 20px;
+}
+#li{
+    color: black;
+    position: absolute;
+    top: 209%;
+    left:230px ;
+}
+#FB:hover ,#int:hover,#li:hover{
+   color:rgba(124, 122, 7, 0.788) ;
+}
