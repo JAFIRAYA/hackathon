@@ -1,3 +1,4 @@
+
 #logo{
     position: relative;
     top: 10px;
@@ -81,7 +82,7 @@ input:hover{
 }
 #I3{
     position: absolute;
-    top: 160%;
+    top: 162%;
     height: 130px;
     width: 220px;
 
@@ -112,11 +113,7 @@ input:hover{
 .row{
     justify-content: space-around;
 }
-.info1{
-    position: absolute;
-    top: 183%;
-    left: 160px;
-}
+
 
 h4{
     font-family: "Baskerville Old Face";
@@ -146,47 +143,148 @@ h4{
     position: relative;
     margin-left:210px 
 }
-span{
-    padding-left: 35px;
+.info1{
+    position: absolute;
+    top: 183%;
+    left: 190px;
+}
+.info1 span{
+    position: absolute;
+    top: 25px;
+    padding-left: 60px;
     color:  rgba(173, 171, 40, 0.788);
     font-weight: bold;
+}
+.info1 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 55px;
+    top: 50px;
 }
 span:hover{
      color: rgba(54, 54, 11, 0.788) ;
 }
-#a1{
-    color:  rgba(173, 171, 40, 0.788);
-    text-decoration: none;
-    font-family: "Baskerville Old Face";
-}
-#a1:hover{
-    font-size: 20px;
-}
+
+
 .info2{
     position: absolute;
     top: 183%;
     left: 550px;
+}
+.info2 h4{
+    position: absolute;
+    left: 40px;
+}
+.info2 span{
+    position: absolute;
+    top: 23px;
+    padding-left: 85px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-weight: bold;
+}
+.info2 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 80px;
+    top: 50px;
 }
 .info3{
     position: absolute;
     top: 183%;
     left: 920px;
 }
+.info3 h4{
+    position: absolute;
+    left: 55px;
+}
+.info3 span{
+    position: absolute;
+    top: 23px;
+    padding-left: 85px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-weight: bold;
+}
+.info3 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
 .info4{
     position: absolute;
     top: 220%;
     left: 170px;
+}
+.info4 h4{
+    position: absolute;
+    left: 46px;
+}
+.info4 span{
+    position: absolute;
+    top: 23px;
+    padding-left: 100px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-weight: bold;
+}
+.info4 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 93px;
+    top: 50px;
 }
 .info5{
     position: absolute;
     top: 220%;
     left: 545px;
 }
+.info5 span{
+    position: absolute;
+    top: 23px;
+    padding-left: 90px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-weight: bold;
+}
+.info5 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 84px;
+    top: 50px;
+}
 .info6{
     position: absolute;
     top: 220%;
     left: 940px;
 }
+.info6 h4{
+    position: absolute;
+    left: 26px;
+}
+.info6 span{
+    position: absolute;
+    top: 23px;
+    padding-left: 80px;
+    color:  rgba(173, 171, 40, 0.788);
+    font-weight: bold;
+}
+.info6 a{
+    color:  rgba(173, 171, 40, 0.788);
+    text-decoration: none;
+    font-family: "Baskerville Old Face";
+    position: absolute;
+    left: 76px;
+    top: 50px;
+}
+
 
 
 .title{
@@ -206,9 +304,9 @@ span:hover{
     font-size: 40px;
 }
 h1{
-    position: relative;
-    top: 180px;
-    left: 490px;
+    position: absolute;
+    top: 140%;
+    left: 40%;
     color:  rgba(124, 122, 7, 0.788);
     font-size: 40px;
     font-family: "Baskerville Old Face";
@@ -324,6 +422,16 @@ height: 20px;
     position: absolute;
     left: 1000px;
     top: 20px;
+}
+.H{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.H:hover{
+    transform: scale(1,2);
+    z-index: 1;
 }
 
 

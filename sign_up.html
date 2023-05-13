@@ -9,17 +9,52 @@
 </head>
 <body>
    <div class="produit">
-    <form action="">
+    <form id="frm">
         
         <h1>SIGN UP</h1>
         <Label>Veuillez saisir votre nom :</Label>  <input type="text" id="inp1" > <br> <br>
         <label >Veuillez saisir votre prenom:</label>    <input type="text" id="inp2"> <br> <br>
         <label>  Veuillez saisir votre adresse E-mail :</label> <input type="email" id="inp3"> <br> <br>
         <label> Veuillez saisir votre Telephone : </label>  <input type="tel" id="inp4"> <br> <br> <br> <br>
-        <button>inscrire</button> <br> <br>
+        <button onclick="valider()">inscrire</button> <br> <br>
 
         <h5> Vous avez déja un compte ? </h5>
     </form>
 </div>
+<script>
+    let Frm=document.getElementById("frm")
+    let Nom=document.getElementById("inp1")
+    let Prenom=document.getElementById("inp2")
+    let AD=document.getElementById("inp3")
+    let Tel=document.getElementById("inp4")
+    let btn=document.getElementById("btn1")
+
+    function valider(){
+        if(Nom.value==="" ){
+            alert("veuillez saisir le nom s'il vous plait")
+            return false;
+            Nom.focus();
+         }
+        else if(Prenom.value===""  ){
+            alert("veuillez saisir le prenom s'il vous plait")
+            return false;
+            prenom.focus();
+        }
+        else if(AD.value===""){
+            alert("veuillez saisir votre adresse Email s'il vous plait")
+            return false;
+            AD.focus();
+        }
+        else if(Tel.value===""){
+            alert("veuillez saisir votre numéro de téléphone s'il vous plait")
+            return false;
+            Tel.focus();
+        }
+        return true;
+
+        }
+         
+    
+</script>
 </body>
 </html>

@@ -33,6 +33,9 @@
             <li class="nav-item">
               <a class="nav-link" href="cosmetic.html">Beauty</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="health.HTML">Health</a>
+            </li>
            
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">contact us</a>
@@ -57,16 +60,13 @@
           <div class="container">
             <div class="col-md-6"> </div><br><br><br>
      
-          </div>
-          
-
-        </div>
+         
       <div class="img3">
       <div id="insr">
         <p>Do you want to entry to your compte ?</p>
         <input type="email" placeholder="Entry your email" id="inp1"><br> <br>
         <input type="password" placeholder="Entry your password" id="inp2">
-        <button>connexion</button>
+        <button onclick="valider()">connexion</button>
         <p>you don't have an account? </p> <a href="sign_up.html" id="sign">SIGN UP</a>
       </div>
       
@@ -74,6 +74,23 @@
         
       </div>
     </header>
+    <script>
+      let email=document.getElementById("inp1")
+      let pass=document.getElementById("inp2")
+
+       function valider(){
+        if(email.value==="" ){
+            alert("veuillez saisir votre Email  s'il vous plait")
+            return false;
+            email.focus();
+         }
+        else if(pass.value==="" ){
+            alert("veuillez saisir votre mot  de pass s'il vous plait")
+            return false;
+            pass.focus();
+        } 
+      return true }
+    </script>
     
  
    
